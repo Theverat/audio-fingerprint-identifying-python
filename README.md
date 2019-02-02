@@ -15,7 +15,11 @@
 
 ![](http://new.tinygrab.com/7020c0e8b0393eec4a18c62170458c029577d378c2.png)
 
-## How to
+## How to use
+- To use a file instead of the microphone as input:
+```
+make recognize-file file=/path/to/file.mp3
+```
 - To remove a specific song & related hash from db
 
   ```bash
