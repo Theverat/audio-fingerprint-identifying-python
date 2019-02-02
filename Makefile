@@ -22,4 +22,4 @@ recognize-listen: clean
 	@python recognize-from-microphone.py -s $(seconds)
 
 recognize-file: clean
-	@python recognize-from-file.py
+	@python recognize-from-file.py -f $(file)

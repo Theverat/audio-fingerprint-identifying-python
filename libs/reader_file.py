@@ -10,6 +10,9 @@ class FileReader(BaseReader):
     # super(FileReader, self).__init__(a)
     self.filename = filename
 
+  def recognize(self):
+    return self.parse_audio()
+
   """
   Reads any file supported by pydub (ffmpeg) and returns the data contained
   within. If file reading fails due to input being a 24-bit wav file,
