@@ -3,3 +3,10 @@ termcolor
 pyaudio
 wave
 pydub
+matplotlib
+scipy
+tk
+
+Installation:
+sudo pip2 install numpy termcolor wave pydub matplotlib scipy
+sudo pacman -S python2-pyaudio tk
