@@ -17,9 +17,9 @@
 
 ## How to use
 - To use a file instead of the microphone as input:
-```
-make recognize-file file=/path/to/file.mp3
-```
+  ```
+  $ make recognize-file file=/path/to/file.mp3
+  ```
 - To remove a specific song & related hash from db
 
   ```bash
